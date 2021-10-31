@@ -8,8 +8,8 @@ SSD object detection TF
 ## changes to be done 
 **datasets/pascalvoc_2007.py  --> Train statistics --> indicates no of bboxes/per class in training <br />.
 **--> Test statistics  --> indicates no of bboxes/per class in testing <br />.
-**--> SPLITS_TO_SIZES --> Total number of bboxes <br />.**
-**datasets/pascalvoc_common.py    --> VOC_LABELS --> with your dataset labels <br />.
+**--> SPLITS_TO_SIZES --> Total number of bboxes <br />.
+**datasets/pascalvoc_common.py --> VOC_LABELS --> with your dataset labels <br />.
 
 ** train_ssd_network.py
     *DATASET_DIR='path to tfrecords'
