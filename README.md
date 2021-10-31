@@ -11,7 +11,7 @@ SSD object detection TF
 ### SPLITS_TO_SIZES --> Total number of bboxes <br />.
 ### datasets/pascalvoc_common.py --> VOC_LABELS --> with your dataset labels <br />.
 
-** train_ssd_network.py
-    *DATASET_DIR='path to tfrecords'
+### train_ssd_network.py
+    *DATASET_DIR='path to tfrecords'*
     *TRAIN_DIR='path to logs dir/'
     *CHECKPOINT_PATH='checkpoints/ssd_300_vgg.ckpt'
